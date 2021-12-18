@@ -1,0 +1,65 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background:#61FF82;
+}
+
+div#fieldset {
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000000;
+    padding-left: 10px;
+        
+}
+
+h1 {
+    position: absolute;
+    font-size: 1.0rem;
+    margin-top: -10px;
+    color:chocolate;
+    padding: 0 3px;
+    /* background-color: #61FF82; */
+    
+}
+
+label {
+    display: block;
+    color: #990C1F;
+    /* flex-direction: row; */
+    font-size: 1.1rem;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#reset-button , #submit-button {
+    cursor: pointer;
+    border-color: blueviolet;
+    color: #ffffff;
+    width: 200px;
+    height: 25px;
+    background-color: #E65266;
+    border: 2px solid;
+}
+
+input {
+    border-color: #990C1F;
+    border: 2px solid;
+}
+
+#label-password {
+    margin-bottom: 20px;
+}
+
+.label-inline {
+    display: inline;
+}
+
+div {
+    margin-bottom: 16px;
+}
+
+#reset-button:hover, #submit-button:hover {
+    background-color: aqua;
+}

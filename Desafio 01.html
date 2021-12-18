@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="fieldset">
+        <h1>Cadastro</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+
+            <!-- No meu desafio eu coloquei o label para incluir todos os inputs. Mas o Rodolfo ensinou o parâmetro for, no qual eu posso atribuir cada label à cada input -->
+
+            <label for="nome"> Nome: </label>
+
+            <input type="text" name="nome" id="nome" required>
+
+
+
+            <label for="email"> Email:</label>
+
+            <input type="email" name="email" id="email" required>
+
+
+
+            <label for="idade">Idade: </label>
+
+            <input type="number" min="12" inputmode="numeric" name="idade" maxlength="2" step="1" required
+                style="width: 40px;">
+
+            <label for="data-nascimento">Data de Nascimento: </label>
+
+            <input type="date" name="data-nascimento" id="data-nascimento" required>
+
+
+
+            <label>Onde você possui conta:
+                <div>
+
+                    <label class="label-inline">
+                        <input type="checkbox" name="Instagram">
+                        Instagram
+                    </label>
+
+                    <label class="label-inline">
+                        <input type="checkbox" name="Facebook">
+                        Facebook
+                    </label>
+
+                    <label class="label-inline">
+                        <input type="checkbox" name="YouTube">
+                        YouTube
+                    </label>
+                </div>
+
+
+                <label>Sexo:
+                    <div>
+                        <label class="label-inline">
+                            <input type="radio" name="genero" value="Masculino">
+                            Masculino
+                        </label>
+                        <label class="label-inline">
+                            <input type="radio" name="genero" value="Feminino">
+                            Feminino
+                        </label>
+                    </div>
+                </label>
+            </label>
+            <label>Cor dos olhos:
+                <input type="color" name="cor-dos-olhos">
+            </label>
+
+            <label>Biografia
+                <div>
+                    <textarea></textarea>
+                </div>
+            </label>
+
+
+            <label>Foto do perfil
+                <div>
+                    <input type="file" accept="image/*" name="FotoDoPerfil">
+                </div>
+            </label>
+
+            <label>Telefone
+                <div>
+                    <input type="tel" name="telefone" required>
+                </div>
+            </label>
+
+
+            <label>Link do Perfil do Facebook
+                <div>
+                    <input type="url" name="url">
+                </div>
+            </label>
+
+            <label id="label-password">Senha
+                <div>
+                    <input type="password" minlength="6" maxlength="8" name="senha" required>
+                </div>
+            </label>
+
+            <button id="reset-button" type="reset" name="reset">Limpar</button>
+            <button id="submit-button" type="submit" name="submit">Enviar Dados</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
