@@ -5,7 +5,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 
 
- <img src="../assets/ChallengeImage.png" alt="Imagem do projeto de Interface">
+ <img src="./assets/ChallengeImage.png" alt="Imagem do projeto de Interface">
 
 > An form made using html and css. 
 ### Project steps / Passos do Projeto
